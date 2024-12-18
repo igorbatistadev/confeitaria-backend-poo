@@ -5,7 +5,7 @@ import com.confetaria.confetaria_backend.dto.CompraRequestDTO;
 import com.confetaria.confetaria_backend.model.Compra;
 
 
-import com.confetaria.confetaria_backend.service.interfarces.CompraService;
+import com.confetaria.confetaria_backend.service.interfaces.CompraService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
