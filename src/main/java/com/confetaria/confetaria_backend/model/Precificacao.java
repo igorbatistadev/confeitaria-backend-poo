@@ -5,6 +5,7 @@ import com.fasterxml.jackson.annotation.JsonManagedReference;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.persistence.*;
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
@@ -14,6 +15,7 @@ import java.util.List;
 @Entity
 @Table(name = "TB_PRECIFICACAO")
 @Data
+@EqualsAndHashCode(callSuper = false)
 public class Precificacao extends EntidadeBase {
 
     @Id
