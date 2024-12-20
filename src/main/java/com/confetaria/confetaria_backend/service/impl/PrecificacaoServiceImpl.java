@@ -6,7 +6,7 @@ import com.confetaria.confetaria_backend.model.*;
 import com.confetaria.confetaria_backend.repository.MaterialRepository;
 import com.confetaria.confetaria_backend.repository.PrecificacaoMaterialRepository;
 import com.confetaria.confetaria_backend.repository.PrecificacaoRepository;
-import com.confetaria.confetaria_backend.service.interfarces.PrecificacaoService;
+import com.confetaria.confetaria_backend.service.interfaces.PrecificacaoService;
 
 import org.springframework.stereotype.Service;
 

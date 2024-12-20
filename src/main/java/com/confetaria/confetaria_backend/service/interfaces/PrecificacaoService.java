@@ -1,4 +1,4 @@
-package com.confetaria.confetaria_backend.service.interfarces;
+package com.confetaria.confetaria_backend.service.interfaces;
 
 import com.confetaria.confetaria_backend.dto.PrecificacaoRequestDTO;
 import com.confetaria.confetaria_backend.model.*;
