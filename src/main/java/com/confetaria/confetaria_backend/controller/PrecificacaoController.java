@@ -2,7 +2,7 @@ package com.confetaria.confetaria_backend.controller;
 
 import com.confetaria.confetaria_backend.dto.PrecificacaoRequestDTO;
 import com.confetaria.confetaria_backend.model.Precificacao;
-import com.confetaria.confetaria_backend.service.interfarces.PrecificacaoService;
+import com.confetaria.confetaria_backend.service.interfaces.PrecificacaoService;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
